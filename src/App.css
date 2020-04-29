@@ -7,6 +7,16 @@
   pointer-events: none;
 }
 
+.pic{
+height: 100px;
+  width: 100%;
+}
+
+h1{
+  background-color: pink;
+  color: white;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
