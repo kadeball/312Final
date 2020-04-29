@@ -1,0 +1,28 @@
+.productContainer{
+    box-shadow:10px 10px  hotpink ;
+    outline: 5px solid pink;
+}
+
+.noMargin{
+    margin: 0;
+}
+
+.dropdown{
+    margin-right: 3000px;
+    margin-bottom: 23px;
+}
+
+@media only screen and (max-width: 600px){
+    nav{
+        display:none
+    }
+
+    .dropdown{
+        display: flex;
+        width: 10vw;
+    }
+
+    footer{
+        height: 16vh;
+    }
+}

@@ -1,0 +1,73 @@
+nav{
+    background-color: pink;
+    height: 50px;
+    list-style-type: none;
+}
+
+nav li{
+    display: inline;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: deeppink;
+}
+
+@media screen and (max-width: 600px) {
+    .nav .nav-collapse .nav-right > li:last-child {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .nav .nav-collapse {
+        margin: 7.5px auto;
+        padding: 0;
+    }
+    .nav .nav-collapse .nav-form {
+        margin: 0;
+    }
+    .nav-collapse > li {
+        float: none;
+    }
+}
+
+.navbar .navbar-collapse {
+    position: relative;
+}
+.navbar .navbar-collapse .navbar-right > li:last-child {
+    padding-left: 22px;
+}
+.navbar .nav-collapse {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding-right: 120px;
+    padding-left: 80px;
+    width: 100%;
+}
+.nav.nav-default .nav-collapse {
+    background-color: pink;
+}
+.nav.nav-inverse .nav-collapse {
+    background-color: pink;
+}
+.nav .nav-collapse .nar-form {
+    border-width: 0;
+    box-shadow: none;
+}
+.nav-collapse > li {
+    float: right;
+}
+
+
+
